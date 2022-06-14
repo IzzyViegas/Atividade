@@ -1,0 +1,122 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  background-color: bisque;
+}
+h1 {
+margin: 0%;
+padding: 0;
+color: #622781;
+font-size: 25px;
+text-align: left;
+text-shadow: 2px 2px 2px black;
+}
+
+text, p{
+  color: black;
+  word-wrap: break-word;
+  font-size: 15px;
+  text-align: left;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  margin: 0%;
+  height: 5vh;
+  padding: 3%;
+  background-color: rgb(122, 206, 255);
+}
+header li a{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 2%;
+}
+header li a:hover {
+  background-color: #622781;
+}
+header li {
+  display: inline;
+  margin-right: 2%;
+  list-style: none;
+}
+#corpo {
+  margin-left: 20%;
+  margin-right: 25%;
+  width: 50%;
+  height: 60%;
+  padding: 2px;
+}
+
+div {
+  padding-top: 5%;
+  margin-left: 1%;
+}
+section {
+  width: 29%;
+  padding-top: 10%;
+
+}
+ fieldset form{
+  background-color: rgb(122, 206, 255);
+  margin: 0px;
+  width: 80%;
+  padding: 10%;
+  text-align: left;
+}
+caption{
+  color: 
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(122, 206, 255);
+  padding: 2%;
+  border-style: solid;
+}
+input {
+  flex-direction: column;
+  caret-color: blueviolet;
+  top: 2%;
+  margin: 1%;
+  margin-left: 15%;
+  margin-right: 10%;
+  padding: 1ch;
+  text-align: left;
+}
+input text{
+  word-wrap: break-word;
+}
+
+.tabela {
+  border: 2px solid;
+  margin: 10px;
+  width: 300px;
+  padding: 25px;
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  height: 25px;
+  border-width: 2px;
+  transform: translate(-50%,-50%);
+  background-color: rgb(122, 206, 255);
+}
+ button {
+  width: 90px;
+  height: 40px;
+  top: 40px;
+  margin-left: 8%;
+  margin-right: 20%;
+  color: #1e1c1f;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+footer{
+  margin-top: 40%;
+  display: inline-block;
+}
