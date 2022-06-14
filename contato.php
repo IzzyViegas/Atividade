@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jubinha_Black 2022</title>
 </head>
-
 <body>
   <?php
-  include_once("topo.php");
+   include_once("topo.php");
   ?>
-
   <div id="corpo">
     <main>
       <h2>Fale Conosco</h2>
       <fieldset>
-        
         <form action="receber_dados.php" method="POST">
           <div>
             <label for="nome">Nome: </label>
